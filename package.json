@@ -1,20 +1,20 @@
 {
-  "name": "@sidneys/electron-deploy-github",
+  "name": "@bengennaria/electron-deploy-github",
   "version": "3.16.0",
   "description": "Automated GitHub deployment for Electron-based desktop apps",
   "license": "MIT",
-  "homepage": "https://bitbucket.org/sidneys/electron-deploy-github",
+  "homepage": "https://github.com/bengennaria/electron-deploy-github",
   "author": {
-    "name": "sidneys",
-    "email": "sidneys.github.io@outlook.com",
-    "url": "https://bitbucket.org/sidneys"
+    "name": "bengennaria",
+    "email": "ben.gennaria@gmail.com",
+    "url": "https://github.com/bengennaria"
   },
   "repository": {
     "type": "git",
-    "url": "https://bitbucket.org/sidneys/electron-deploy-github.git"
+    "url": "https://github.com/bengennaria/electron-deploy-github.git"
   },
   "bugs": {
-    "url": "https://bitbucket.org/sidneys/electron-deploy-github/issues"
+    "url": "https://github.com/bengennaria/electron-deploy-github/issues"
   },
   "deprecated": false,
   "engines": {
@@ -31,9 +31,9 @@
     "tools"
   ],
   "dependencies": {
-    "@sidneys/electron-deploy-utils": "^0.19.0",
-    "@sidneys/logger": "^1.151.0",
-    "@sidneys/releasenotes": "^1.138.0",
+    "@bengennaria/electron-deploy-utils": "git+https://bengennaria@github.com/bengennaria/electron-deploy-utils.git",
+    "@bengennaria/logger": "git+https://bengennaria@github.com/bengennaria/logger.git",
+    "@bengennaria/releasenotes": "git+https://bengennaria@github.com/bengennaria/releasenotes.git",
     "app-root-path": "^3.0.0",
     "git-branch": "^2.0.1",
     "is-ci": "^2.0.0",
