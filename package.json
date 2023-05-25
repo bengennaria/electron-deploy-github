@@ -1,0 +1,54 @@
+{
+  "name": "@sidneys/electron-deploy-github",
+  "version": "3.16.0",
+  "description": "Automated GitHub deployment for Electron-based desktop apps",
+  "license": "MIT",
+  "homepage": "https://bitbucket.org/sidneys/electron-deploy-github",
+  "author": {
+    "name": "sidneys",
+    "email": "sidneys.github.io@outlook.com",
+    "url": "https://bitbucket.org/sidneys"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://bitbucket.org/sidneys/electron-deploy-github.git"
+  },
+  "bugs": {
+    "url": "https://bitbucket.org/sidneys/electron-deploy-github/issues"
+  },
+  "deprecated": false,
+  "engines": {
+    "node": ">= 12.0.0",
+    "npm": ">= 6.0.0"
+  },
+  "os": [
+    "darwin",
+    "win32",
+    "linux"
+  ],
+  "keywords": [
+    "development",
+    "tools"
+  ],
+  "dependencies": {
+    "@sidneys/electron-deploy-utils": "^0.19.0",
+    "@sidneys/logger": "^1.151.0",
+    "@sidneys/releasenotes": "^1.138.0",
+    "app-root-path": "^3.0.0",
+    "git-branch": "^2.0.1",
+    "is-ci": "^2.0.0",
+    "lodash": "^4.17.20",
+    "progress": "^2.0.3",
+    "publish-release": "^1.6.1"
+  },
+  "devDependencies": {
+    "eslint": "^7.18.0"
+  },
+  "main": "./lib/index.js",
+  "bin": {
+    "electron-deploy-github": "lib/index.js"
+  },
+  "scripts": {
+    "lint": "./node_modules/.bin/eslint ./lib"
+  }
+}
